@@ -49,7 +49,8 @@ Model should be a good way for management to understand the demand dynamics of a
 	- seaborn
 
 ## Dataset characteristics
-day.csv have the following fields:	
+day.csv have the following fields:
+
 	- instant: record index
 	- dteday : date
 	- season : season (1:spring, 2:summer, 3:fall, 4:winter)
@@ -58,7 +59,7 @@ day.csv have the following fields:
 	- holiday : weather day is a holiday or not (extracted from http://dchr.dc.gov/page/holiday-schedule)
 	- weekday : day of the week
 	- workingday : if day is neither weekend nor holiday is 1, otherwise is 0.
-	+ weathersit : 
+	- weathersit : 
 		- 1: Clear, Few clouds, Partly cloudy, Partly cloudy
 		- 2: Mist + Cloudy, Mist + Broken clouds, Mist + Few clouds, Mist
 		- 3: Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds
