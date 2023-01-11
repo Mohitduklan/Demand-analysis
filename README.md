@@ -5,40 +5,40 @@ A US bike-sharing provider BoomBikes has recently suffered considerable dips in 
 
 
 ## Table of Contents
-* [Problem Description](#general-information)
-* [Technologies Used](#technologies-used)
-* [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
+- [Problem Description](#general-information)
+- [Technologies Used](#technologies-used)
+- [Conclusions](#conclusions)
+- [Acknowledgements](#acknowledgements)
 
-## General Information
+## Problem Description
 To build a model that explain demand for shared bikes with the available independent variables. 
 To understand how exactly the demands vary with different features. 
 They can accordingly manipulate the business strategy to meet the demand levels and meet the customer's expectations. 
 Model should be a good way for management to understand the demand dynamics of a new market. 
 
 ## Conclusions
-* Temprature, weathersit, season, year, month are the most important factor to predict demand
-* Year:
-    * Year is important since every year there will be some improvement, development and advertizing in company which will increase its demand.
-* Season:
-    * Demand changes with spring,summer,fall, winter:
-        * In spring demand is lowest
-        * In summer demand is good 
-        * In fall demand is at peak
-        * In winter demand is good
-* Month:
-    * Month give more information about demand
-* Temprature: It have positive correlation with demand
-* Weathersit:
-    * Demand changes with weather:
+- Temprature, weathersit, season, year, month are the most important factor to predict demand
+- Year:
+    - Year is important since every year there will be some improvement, development and advertizing in company which will increase its demand.
+- Season:
+    - Demand changes with spring,summer,fall, winter:
+        - In spring demand is lowest
+        - In summer demand is good 
+        - In fall demand is at peak
+        - In winter demand is good
+- Month:
+    - Month give more information about demand
+- Temprature: It have positive correlation with demand
+- Weathersit:
+    - Demand changes with weather:
         - 1: Clear, Few clouds, Partly cloudy, Partly cloudy
-            * Demand is at peak in clear weather
+            - Demand is at peak in clear weather
         - 2: Mist + Cloudy, Mist + Broken clouds, Mist + Few clouds, Mist
-            * Demand is good
+            - Demand is good
 		- 3: Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds
-            * Demand is at lowest
+            - Demand is at lowest
 		- 4: Heavy Rain + Ice Pallets + Thunderstorm + Mist, Snow + Fog
-            * No demand at all
+            - No demand at all
 
 ## Technologies Used
 - Python
